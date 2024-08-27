@@ -1,0 +1,151 @@
+header {
+  font-family:'Franklin Gothic Medium', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.logo {
+  max-width: 120px;
+  max-height: 60px;
+}
+
+/* Styling for navigation bar*/
+nav ul {
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff575777;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-top: 30px; /* Adds spacing before the divider */
+  margin-bottom: 20px; /* Adds spacing after the divider */
+}
+
+
+h1, h2, h3 {
+  font-family: "Cormorant Garamond", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Cormorant Garamond", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*Styling first image*/
+.intro-img {
+  max-width: 50%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/*Styling the 3 images in the columns*/
+.image-row {
+  display: flex;               
+  justify-content: space-around; 
+  align-items: flex-start;      
+  margin-bottom: 20px;
+}
+
+.image-column {
+  flex: 1;                   
+  max-width: 33.33%;          
+  padding:  20px;            
+}
+
+.image-column img {
+  width: 100%;             
+  height: auto;               
+}
+
+
+/* Styling for the 'All blogs' button*/
+.custom-button, .btn-primary {
+  background-color: #ff575777;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family:'Franklin Gothic Medium', sans-serif'
+}
+
+/* Hover effect */
+.custom-button:hover, .btn-primary:hover {
+  background-color: #c44a4a; /* Darken the background on hover */
+}
+
+
+
+/* Adding spacing before footer */
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px; /* Increased gap between button and footer */
+}
+
+
+/* Styling for quiz-container */
+.quiz-container {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fce2e2;
+  border-radius: 8px;
+}
+
+/* Styling for questions and options */
+.question {
+  font-family: "Cormorant Garamond", sans-serif;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.options img {
+  width: 250px;
+  height: 205px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.options img:hover {
+  border: 2px solid #0f6c20;
+}
+
+
+/* Styling for footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fdcece;
+  color: white;
+}

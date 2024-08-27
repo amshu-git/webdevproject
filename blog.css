@@ -1,0 +1,133 @@
+header {
+  font-family:'Franklin Gothic Medium', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 75px;
+}
+
+/* Styling for navigation bar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center; /* Center the navigation on small screens */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff575777;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-top: 20px; /* Adds spacing before the divider */
+  margin-bottom: 20px; /* Adds spacing after the divider */
+}
+
+h1, h3 {
+  font-family: "Cormorant Garamond", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family:"Cormorant Garamond", sans-serif;
+  text-align: left;
+}
+
+p {
+  font-family: "Cormorant Garamond", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Search Bar Styling */
+.search-container {
+  margin-bottom: 20px;
+  position: center;
+  min-width: 500px;
+  padding: 10px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+#searchButton {
+  padding: 10px;
+}
+
+/* Blog container styling */
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+/* Blog post styling */
+.blog-post {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.blog-post img {
+  width:400px;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
+.blog-post h2 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-post p {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.blog-post a {
+  display: block;
+  font-family:'Franklin Gothic Medium',  sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000003;
+}
+
+.blog-post a:hover {
+  color: #1e920a;
+}
+
+/* Styling for footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fdcece;
+  color: white;
+}

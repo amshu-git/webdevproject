@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+
+    <!-- Importing font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <!-- Listed webpages I wanted in the nav bar -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Travel Blogs</h1>
+            <p> Below are all the blogs written by our members for you. Already have a city or country in mind? Use our search bar function to see if a blog already exists!</p>
+        </section>
+  <!-- Search Bar Section -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for a city or country...">
+    <button id="searchButton">Search</button>
+    </div>
+
+<!-- Blog Posts Section -->
+<div id="blogPosts" class="blog-container">
+    <div class="blog-post" id="paris" data-location="Paris France">
+        <h2>The Ultimate Paris travel guide</h2>
+        <h3> -The Blonde Abroad-</h3>
+        <img src="images/parisblog.png" alt="Paris">
+        <a href="https://www.theblondeabroad.com/ultimate-paris-travel-guide/">Read more</a>
+    </div>
+    <div class="blog-post" id="kyoto" data-location="Kyoto Japan">
+        <h2>3 Day Kyoto Itinerary</h2>
+        <h3> -The Blonde Abroad-</h3>
+        <a href="https://www.theblondeabroad.com/"></a>
+        <img src="images/kyoto 2.png" alt="Kyoto">
+        <a href="https://www.theblondeabroad.com/the-ultimate-3-day-kyoto-itinerary/">Read more</a>
+    </div>
+    <div class="blog-post" id="shanghai" data-location="Shanghai China">
+        <h2>The best 3 day Shanghai itinerary</h2>
+        <h3> -The Travel Momento -</h3>
+        <img src="images/shanghaiblog.png" alt="Shanghai">
+        <a href="https://thetravelmomento.com/shanghai-itinerary/">Read more</a>
+    </div>
+    <div class="blog-post" id="nyc" data-location="New York US">
+        <h2>Iconic restaurants New York City</h2>
+        <h3> -New York Simply-</h3>
+        <img src="images\NYCblog.png" alt="NYC">
+        <a href="https://newyorkspork.com/new-york-city-iconic-restaurants/">Read more</a>
+    </div>
+    <div class="blog-post" id="london" data-location="London England">
+        <h2>25+ things to do alone in London</h2>
+        <h3> -Hues Of Delahaye-</h3>
+        <img src="images/londonblog.png" alt="London">
+        <a href="https://www.huesofdelahaye.com/best-time-to-visit-london/">Read more</a>
+    </div>
+    <div class="blog-post" id="hawaii" data-location="Hawaii US">
+        <h2>Ultimate Guide to Hawaii for solo travellers </h2>
+        <h3> -Jessie On A Journey-</h3>
+        <img src="images/hawaiiblog.png" alt="Hawaii">
+        <a href="https://jessieonajourney.com/solo-trip-to-hawaii/">Read more</a>
+    </div>
+</div>
+
+
+</main>
+
+<footer>
+        <!-- Add relevant navigation links and change text below -->
+        <p> Girls who travel 2024. </p>
+        <p> Contact us</p>
+</footer>
+
+    <!-- Linked this HTML page to the script.js file -->
+<script src="blog.js"></script>
+</body>
+</html>
